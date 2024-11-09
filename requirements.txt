@@ -1,4 +1,4 @@
-psycopg2==3.2.3
+psycopg2-binary==2.8.6
 asgiref==3.7.2
 dj-database-url==2.1.0
 dj-email-url==1.0.6
