@@ -76,7 +76,7 @@ sortedcontainers==2.4.0
 sounddevice==0.4.6
 sqlparse==0.4.4
 tensorboard-data-server==0.7.2
-tensorflow-io-gcs-filesystem==0.31.0
+tensorflow-io-gcs-filesystem
 termcolor==2.4.0
 TimeConvert==3.0.13
 trio==0.22.2
