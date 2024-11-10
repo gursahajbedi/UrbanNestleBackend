@@ -1,12 +1,13 @@
 {
-    "version": 2,
-    "builds": [
+  "builds": [{
+      "src": "realest_estate/wsgi.py",
+      "use": "@ardnt/vercel-python-wsgi",
+      "config": { "maxLambdaSize": "15mb" }
+  }],
+  "routes": [
       {
-        "src": "realest_estate/wsgi.py",
-        "use": "@vercel/python"
+          "src": "/(.*)",
+          "dest": "realest_estate/wsgi.py"
       }
-    ],
-    "routes": [
-      { "src": "/(.*)", "dest": "realest_estate/wsgi.py" }
-    ]
-  }
+  ]
+}
